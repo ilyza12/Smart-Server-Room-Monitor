@@ -66,11 +66,14 @@ void loop() {
     http.addHeader("Content-Type", "application/json");
     
     int httpResponseCode = http.POST(jsonOutput);
+    String responseBody = http.getString(); // <--- ADD THIS
     
     Serial.print("Sending Data: ");
     Serial.println(jsonOutput);
     Serial.print("Response Code: ");
     Serial.println(httpResponseCode); // 200 means success
+    Serial.print("Server Reply: ");         // <--- ADD THIS
+    Serial.println(responseBody);           // <--- ADD THIS
     
     http.end();
   }
