@@ -11,7 +11,7 @@ TABLE_ID = "readings"
 SECRET_API_KEY = "AIzaSyDTGtnietNjMMlcm4GsPjQ56S6l19WzVwQ"
 
 # THRESHOLDS
-TEMP_CRITICAL = 33.0    # RED ALERT - overheating
+TEMP_CRITICAL = 32.0    # RED ALERT - overheating
 HUMID_WARNING_MIN = 15.0 # Below - Static Electricity Risk
 HUMID_WARNING_MAX = 60.0 # Above 60% - Rust/Short Circuit Risk
 
