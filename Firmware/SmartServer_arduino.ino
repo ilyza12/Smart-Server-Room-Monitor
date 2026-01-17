@@ -8,9 +8,9 @@ const char* ssid     = "Galaxy A33 5GF06F";         // <--- CHANGE THIS
 const char* password = "vywa6030";     // <--- CHANGE THIS
 
 // Paste your Webhook.site URL here for testing:
-const char* serverName = "https://webhook.site/98b97d62-bdf1-4b40-81e6-11a05d51ff3c"; 
+const char* serverName = "https://ingest-data-1054456615434.us-central1.run.app"; 
 
-const char* apiKey = "MySuperSecretKey"; // Matches the Cloud Function later
+const char* apiKey = "AIzaSyDTGtnietNjMMlcm4GsPjQ56S6l19WzVwQ"; // Matches the Cloud Function later
 #define DHTPIN 4
 #define DHTTYPE DHT11
 // ======================================================
