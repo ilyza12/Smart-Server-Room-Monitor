@@ -4,8 +4,8 @@
 #include "DHT.h"
 
 // ================= USER CONFIGURATION =================
-const char* ssid     = "Galaxy A33 5GF06F";         // <--- CHANGE THIS
-const char* password = "vywa6030";     // <--- CHANGE THIS
+const char* ssid     = "Galaxy A33 XXXX";         // <--- CHANGE THIS
+const char* password = "XXXX";     // <--- CHANGE THIS
 
 // Paste your Webhook.site URL here for testing:
 const char* serverName = "https://ingest-data-1054456615434.us-central1.run.app"; 
