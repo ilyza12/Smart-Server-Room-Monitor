@@ -5,10 +5,10 @@ import json
 import logging
 
 # --- CONFIGURATION ---
-PROJECT_ID = "cpc357-project-481709" 
+PROJECT_ID = "cpc357-project-48xxxx" 
 DATASET_ID = "sensor_data"
 TABLE_ID = "readings"
-SECRET_API_KEY = "AIzaSyDTGtnietNjMMlcm4GsPjQ56S6l19WzVwQ"
+SECRET_API_KEY = "AIzaxxx"
 
 # THRESHOLDS
 TEMP_CRITICAL = 32.0    # RED ALERT - overheating
